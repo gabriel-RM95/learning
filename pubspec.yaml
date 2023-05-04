@@ -1,0 +1,29 @@
+name: learning
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.2
+  http: ^0.13.6
+  json_annotation: ^4.8.0
+  shared_preferences: ^2.1.0
+
+dev_dependencies:
+  build_runner: ^2.3.3
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^6.6.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/transform_pageviewbuilder/
